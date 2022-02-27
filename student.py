@@ -1,9 +1,9 @@
+def pyramid(number):
+    print("0") #Fix this
+
 def main():
     #your code goes here
-    x = int(input("Enter a number"))
-    y = int(input("Enter another number"))
-
-    print(x*y)
+    print("0")
 
 if __name__ =='__main__':
     main()

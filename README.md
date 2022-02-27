@@ -8,7 +8,4 @@ Create a function that takes in a number, then prints a triangle of * with that 
 5
 
 ### Output
-![outout](./pyramid.png) 
-
-### Notes
-- pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
+![outout](./pyramid.png)

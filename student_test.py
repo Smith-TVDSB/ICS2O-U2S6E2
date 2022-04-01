@@ -5,7 +5,7 @@ import student
 def test_3(capsys):
     student.pyramid(3)
     out,err =  capsys.readouterr()
-    assert out == "*\n**\n***" or out == "* \n* * \n* * * \n"
+    assert out == "*\n**\n***\n" or out == "* \n* * \n* * * \n"
 
 def test_1(capsys):
     student.pyramid(1)

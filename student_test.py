@@ -10,7 +10,7 @@ def test_3(capsys):
 def test_1(capsys):
     student.pyramid(1)
     out,err =  capsys.readouterr()
-    assert out == "*\n" or out == "*"
+    assert out == "*\n" or out == "* \n"
 
 def test_5(capsys):
     student.pyramid(5)
